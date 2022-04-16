@@ -123,14 +123,14 @@ class Reviewer(Mentor):
         return (f'Имя: {self.name}\n'
                 f'Фамилия: {self.surname}\n')
 
-student1 = Student('Дмитрий', 'Трисмаков', 'м')
-student2 = Student('Марат', 'Мовламов', 'м')
+student1 = Student('Александр', 'Данилов', 'М')
+student2 = Student('Павлик', 'Морозов', 'М')
 
-lecturer1 = Lecturer('Олег', 'Булыгин')
-lecturer2 = Lecturer('Елена', 'Никитина')
+lecturer1 = Lecturer('Вася', 'Пронин')
+lecturer2 = Lecturer('Алия', 'Барсукова')
 
-reviewer1 = Reviewer('Александр', 'Бардин')
-reviewer2 = Reviewer('Олег', 'Булыгин')
+reviewer1 = Reviewer('Евгений', 'Варов')
+reviewer2 = Reviewer('Олег', 'Калмыков')
 
 reviewer1.rate_hw(student1, 'Python', 9)
 reviewer1.rate_hw(student1, 'Python', 9)
